@@ -6,6 +6,103 @@
     font-family: serif;
 }
 
-{
-    
+/*--------------------------------HEADER--------------------------------*/
+
+header{
+    background-color:#0084FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 85%;
+}
+
+.container-header{
+    padding: 1rem 0;
+}
+
+.flex-jsb-aic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bars-size{
+    font-size: 1.75rem;
+}
+
+/*--------------------------------MAIN--------------------------------*/
+
+/*--------------------------------FIRST SECTION (DEMO APPLICATION)--------------------------------*/
+
+.demo-application{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.container-demo-application{
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-demo-padding{
+    padding: 3.5rem 0 4.5rem 0;
+}
+
+.card{
+    height: calc(100% / 5);
+    width: 100%;
+}
+
+.card-x2{
+    height: calc((100% / 5) * 2);
+    width: 100%;
+}
+
+.card-margin-bottom{
+    margin-bottom: 2rem;
+}
+
+.background-card-blue{
+    background-color: #B5DDFF;
+}
+
+.border-radius-blue-card{
+    border-radius: 2rem;
+}
+
+/*--------------------------------SECOND SECTION (PLANNING)--------------------------------*/
+
+.planning{
+    background-color: #9792E4;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container-planning{
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5rem 0 3.5rem 0;
+}
+
+.img-planning{
+    width: 100%;
+}
+
+.wrap-strategic-planning{
+    padding: 5.5rem 0;
+}
+
+.font-strategic-planning{
+    font-size: 2..5rem;
+    font-weight: bolder;
+    font-family: sans-serif;
 }
