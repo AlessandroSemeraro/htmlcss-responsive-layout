@@ -3,7 +3,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: serif;
+    
+}
+
+p{
+    line-height: 2rem;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
 
 /*--------------------------------HEADER--------------------------------*/
@@ -86,7 +93,6 @@ header{
 }
 
 .container-planning{
-    height: 3000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,7 +108,96 @@ header{
 }
 
 .font-strategic-planning{
-    font-size: 2..5rem;
-    font-weight: bolder;
     font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
 }
+
+.font-strategic-margin-bottom{
+    margin-bottom: 3.5rem;
+}
+
+/*--------------------------------WHITE CARD SECOND SECTION (PLANNING)--------------------------------*/
+
+.card-white{
+    width: 100%;
+    height: 750px;
+    background-color: white;
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
+}
+
+.card-white-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border-card-white{
+    border-radius: 4rem;
+}
+
+.font-color-black{
+    color: black;
+}
+
+.font-family{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.arrow{
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;   
+    -moz-border-radius: 30px; 
+    border-radius: 30px; 
+    background-color: #9792E4;
+    text-align: center;
+}
+
+/*--------------------------------THIRD SECTION--------------------------------*/
+
+.testimonials{
+    display: flex;
+    justify-content: center;
+}
+
+.container-testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0 3rem 0;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.font-testimonials-margin-bottom{
+    margin-bottom: 2rem;
+}
+
+.font-color-lavender{
+   color: #9792E4;
+}
+
+/*--------------------------------THIRD SECTION (CARDS)--------------------------------*/
+
+.container-testimonials-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
