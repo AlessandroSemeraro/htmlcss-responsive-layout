@@ -195,9 +195,34 @@ header{
 
 /*--------------------------------THIRD SECTION (CARDS)--------------------------------*/
 
-.container-testimonials-cards{
+.three-cards{
+    width: 100%;
+    height: calc(100% / 3);
+    background-color: #9792E4;
+    border: 1px solid magenta;
+}
+
+.three-cards-section{
+    height: 1800px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 3rem;
 }
 
+.border-radius-lavender-card{
+    border-radius: 3.5rem;
+}
+
+.card-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-three-cards{
+    
+    border-radius: 50%;
+}
