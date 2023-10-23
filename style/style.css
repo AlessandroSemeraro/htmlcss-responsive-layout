@@ -499,3 +499,82 @@ footer{
 
 /*---------------------------------------------------------------------*/
 
+@media screen and (min-width: 768px) {
+    .container-demo-padding{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-x2{
+        width:calc((100% /3)*2)
+    }
+
+    .card{
+        width: calc(100% / 3);
+        
+    }
+
+    .font-strategic-planning{
+        font-size: 4rem;
+    }
+
+    .font-size-vsmall{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .font-size-appdev{
+        font-size: 1.6rem;
+    }
+
+    .card-wrap-elements{
+        padding-bottom: 1.5rem;
+    }
+
+    .font-strategic-planning{
+        font-size: 2.5rem;
+    }
+
+    .font-size-small{
+        font-size: 1rem;
+    }
+    
+    .font-size-normal{
+        font-size: 1.2rem
+    }
+
+    .arrow{
+        display: block;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;   
+        -moz-border-radius: 30px; 
+        border-radius: 30px; 
+        background-color: #9792E4;
+        text-align: center;
+    }
+
+    .card-flex{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-column-768media{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .margin-left-768media{
+        margin-left:2rem;
+    }
+
+    .six-card-section{
+        width: calc((100% / 2) - 3rem);
+        background-color: white;
+        border-radius: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+  
+}
