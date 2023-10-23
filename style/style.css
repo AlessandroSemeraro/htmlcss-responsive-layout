@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 p{
@@ -351,7 +351,6 @@ header{
     flex-direction: column;
     align-items: flex-start;
     padding: 4rem 0 3rem 0;
-    height: 5000px;
 }
 
 .font-title-fifth-section{
@@ -383,4 +382,78 @@ header{
 .button-linkedin{
     color: white;
     background-color: #9792E4;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+.button-margin-right{
+    margin-right: 0.5rem;
+}
+
+.font-title-linkedin{
+    font-size:2.5rem;
+    font-weight: bolder;
+}
+
+/*--------------------------------SIXTH SECTION (GET-STARTED)--------------------------------*/
+.get-started{
+    background-color: #9792E4;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container-get-started{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 0 3.5rem 0;
+}
+
+.font-size-getstarted{
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+}
+
+.line-height{
+    line-height: 3rem;
+}
+
+.font-size-big{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.font-color-orange{
+    color: #FDC15F;
+}
+
+.button-getstarted{
+    border: none;
+    border-radius: 3rem;
+    padding: 1.5rem 4rem; 
+    font-weight: 700;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+/*--------------------------------------FOOTER----------------------------------*/
+
+footer{
+    color: white;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
 }
