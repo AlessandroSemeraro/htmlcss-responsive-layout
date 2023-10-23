@@ -3,14 +3,35 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+    font-family: font-family: 'PT Sans', sans-serif;
 }
 
 p{
-    line-height: 2rem;
-    font-size: 1.3rem;
-    font-family: sans-serif;
+    line-height: 2.5rem;
     font-weight: lighter;
+}
+
+/*-------------------------------FONT------------------------------*/
+
+.font-size-small{
+    font-size: 1.3rem;
+}
+
+.font-size-vsmall{
+    font-size: 1.2rem
+}
+
+.font-size-normal{
+    font-size: 1.4rem
+}
+
+.font-size-numbers{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.font-size-title-cards{
+    font-size: 2rem;
 }
 
 /*--------------------------------HEADER--------------------------------*/
@@ -45,13 +66,12 @@ header{
 /*--------------------------------FIRST SECTION (DEMO APPLICATION)--------------------------------*/
 
 .demo-application{
-    background-color: red;
     display: flex;
     justify-content: center;
 }
 
 .container-demo-application{
-    height: 3000px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,17 +82,17 @@ header{
 }
 
 .card{
-    height: calc(100% / 5);
+    padding: 15rem 0;
     width: 100%;
 }
 
 .card-x2{
-    height: calc((100% / 5) * 2);
+    padding: 30rem 0;
     width: 100%;
 }
 
-.card-margin-bottom{
-    margin-bottom: 2rem;
+.padding-strategic-planning{
+    padding-bottom: 3rem;
 }
 
 .background-card-blue{
@@ -99,29 +119,28 @@ header{
     padding: 3.5rem 0 3.5rem 0;
 }
 
+.card-wrap-elements{
+    padding-bottom: 2rem;
+}
+
 .img-planning{
     width: 100%;
 }
 
 .wrap-strategic-planning{
-    padding: 5.5rem 0;
+    padding-top: 5.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .font-strategic-planning{
-    font-family: sans-serif;
     font-size: 2.5rem;
     font-weight: bolder;
-}
-
-.font-strategic-margin-bottom{
-    margin-bottom: 3.5rem;
 }
 
 /*--------------------------------WHITE CARD SECOND SECTION (PLANNING)--------------------------------*/
 
 .card-white{
     width: 100%;
-    height: 750px;
     background-color: white;
     padding: 1.5rem 1.5rem 2rem 1.5rem;
 }
@@ -142,7 +161,6 @@ header{
 }
 
 .font-family{
-    font-family: sans-serif;
     font-size: 1.2rem;
 }
 
@@ -185,8 +203,8 @@ header{
     text-transform: uppercase;
 }
 
-.font-testimonials-margin-bottom{
-    margin-bottom: 2rem;
+.font-testimonials-padding-bottom{
+    padding-bottom: 2rem;
 }
 
 .font-color-lavender{
@@ -197,18 +215,19 @@ header{
 
 .three-cards{
     width: 100%;
-    height: calc(100% / 3);
     background-color: #9792E4;
-    border: 1px solid magenta;
 }
 
 .three-cards-section{
-    height: 1800px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 3rem;
+}
+
+.wrap-card{
+    padding-bottom: 2.5rem;
 }
 
 .border-radius-lavender-card{
@@ -218,11 +237,150 @@ header{
 .card-flex{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-.img-three-cards{
-    
+.card-padding-top{
+    padding-top: 3.5rem;
+}
+
+.elements-card-padding{
+    padding:3rem 2rem ;
+}
+
+.circle{
+    height:15rem;
+    width:15rem;
     border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-testimonial1{
+    background-image:url(../img/testimonial1.jpg) ;
+}
+
+.bg-testimonial2{
+    background-image:url(../img/testimonial2.jpg) ;
+}
+
+.bg-testimonial3{
+    background-image:url(../img/testimonial3.jpg) ;
+}
+
+.font-color-white{
+    color: white;
+}
+
+.wrap-quotation-marks{
+    display: inline-block;
+}
+
+.quotation-marks-font{
+    font-size: 2.5rem;
+    vertical-align: bottom;
+}
+
+.font-names-card{
+    font-family: sans-serif;
+}
+
+/*--------------------------------FOURTH SECTION (BENEFITS)--------------------------------*/
+
+.benefits{
+    background-color: #9792E4;
+    display: flex;
+    justify-content: center;
+}
+
+.container-benefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0 3rem 0;
+}
+
+.wrap-title-benefits{
+    padding-bottom: 5rem;
+}
+
+.six-card-section{
+    width: 100%;
+    background-color: white;
+    border-radius: 2rem;
+    
+}
+
+.six-card-flex-column{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.font-color-gray{
+    color: gray;
+}
+
+.button{
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+.button-letter-spacing{
+    letter-spacing: 0.3rem;
+}
+
+.background-lavander{
+    background-color: #9792E4 ;
+}
+
+/*--------------------------------FIFTH SECTION (ABOUT US)--------------------------------*/
+
+.about-us{
+    display: flex;
+    justify-content: center;   
+}
+
+.container-about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 0 3rem 0;
+    height: 5000px;
+}
+
+.font-title-fifth-section{
+    font-size: 3rem;
+}
+
+.wrap-elements{
+    padding-bottom: 2.5rem;
+}
+
+.bg-about{
+    background-image: url(../img/about.jpg);
+    position: relative;
+}
+
+.font-quotation-marks{
+    font-size: 8rem;
+    color: #9792E4;
+    position: absolute;
+    right: 0;
+    bottom: 6rem;
+    
+}
+
+.image-padding-top{
+    padding-top:2rem
+}
+
+.button-linkedin{
+    color: white;
+    background-color: #9792E4;
 }
