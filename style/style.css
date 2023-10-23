@@ -31,7 +31,7 @@ p{
 }
 
 .font-size-title-cards{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 /*--------------------------------HEADER--------------------------------*/
@@ -70,8 +70,7 @@ header{
     justify-content: center;
 }
 
-.container-demo-application{
-    
+.container-demo-application{    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,16 +78,40 @@ header{
 
 .container-demo-padding{
     padding: 3.5rem 0 4.5rem 0;
+    position: relative;
+}
+
+.font-color-blue{
+    color: #0084FD;
 }
 
 .card{
-    padding: 15rem 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
 }
 
 .card-x2{
-    padding: 30rem 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding:1.5rem
+}
+
+.image-flex-cardx2{
+  display: flex;
+  justify-content: center; 
+}
+
+.image-cardx2{
+    width: 80%;
+    position: relative;
+    top: 1.5rem;
 }
 
 .padding-strategic-planning{
@@ -101,6 +124,22 @@ header{
 
 .border-radius-blue-card{
     border-radius: 2rem;
+}
+
+.font-weight-1000{
+    font-weight: 1000;
+}
+
+.line-height-low{
+    line-height: 1.75rem;
+}
+
+.bg-blue{
+    background-color: #0084FD;
+}
+
+.width-icon{
+ font-size: 6rem;
 }
 
 /*--------------------------------SECOND SECTION (PLANNING)--------------------------------*/
@@ -457,3 +496,6 @@ footer{
     align-items: center;
     padding: 3rem 0;
 }
+
+/*---------------------------------------------------------------------*/
+
